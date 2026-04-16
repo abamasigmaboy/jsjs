@@ -2,13 +2,12 @@ let spisok = document.createElement('ul');
     document.body.append(spisok);
 let a = prompt("введите кооличество элементов списка", "");
 for(i=0; i<a;i++ ){
-    let text = prompt("Enter your text", "");
+    let text = prompt("vvedite text", "");
     let da = document.createElement('li');
     da.textContent = text;
     spisok.append(da);
 }
 
-//задание2
 let data = {
   "Рыбы": {
     "форель": {},
